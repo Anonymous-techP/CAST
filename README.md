@@ -1,4 +1,4 @@
-# CAST: Cross-Asset State-Space Trading System
+# CAST: A Cross-Asset State-Space Trading System
 
 Code and data for reproducing the main results of CAST.
 
