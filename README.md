@@ -36,7 +36,10 @@ Four panels of 30 daily-close stocks, January 2005 to April 2025:
 | TPX100   | Japanese blue-chips        |
 | Global30 | Cross-currency basket      |
 
-Each panel is one `.parquet` (prices) + one `.json` (tickers). Global30 prices are normalized to the first-day value before backtesting; the other three use raw prices.
+Each panel is one `.parquet` (prices) + one `.json` (tickers). 
+
+Global30 prices (different currencies) are normalized to the first-day value before backtesting, while the other three datasets use raw prices.
+
 ---
 
 ## Setup
@@ -69,7 +72,8 @@ Settings (paper-locked):
 
 Two CSVs are written to data/:
 
-m30_main_results.csv — one per (dataset, $\lambda$, method).
-m30_main_results_best_lambda.csv — best $\lambda$ per (dataset, method). Matches Table I of the paper.
+>m30_main_results.csv — one per (dataset, $\lambda$, method).
+
+>m30_main_results_best_lambda.csv — best $\lambda$ per (dataset, method). Matches Table I of the paper.
 
 ---
