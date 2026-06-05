@@ -46,7 +46,6 @@ Global30 prices (different currencies) are normalized to the first-day value bef
 
 ![COMPARISON OF DIFFERENT METHODS](figures/Overall_comparison.png)
 
-
 ---
 
 ## Setup
