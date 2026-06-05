@@ -42,6 +42,13 @@ Global30 prices (different currencies) are normalized to the first-day value bef
 
 ---
 
+## Overall Comparison
+
+![COMPARISON OF DIFFERENT METHODS](figures/Overall_comparison.png)
+
+
+---
+
 ## Setup
 
 ```bash
